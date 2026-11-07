@@ -143,3 +143,211 @@ body {
     min-height: 620px;
     background: #fff;
 }
+
+/* ==============================
+   HERO SECTION
+============================== */
+
+.hero {
+    width: 1440px;
+    height: 560px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    padding-left: 85px;
+    width: 760px;
+}
+
+.hero-label {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #e60000;
+    margin-bottom: 22px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 0.98;
+    letter-spacing: -5px;
+    margin-bottom: 28px;
+}
+
+.red-dot {
+    color: #e60000;
+}
+
+.hero-description {
+    font-size: 23px;
+    line-height: 1.45;
+    max-width: 520px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 25px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-arrow {
+    font-size: 22px;
+}
+
+/* ==============================
+   HERO PHONE ILLUSTRATION
+============================== */
+
+.hero-visual {
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    width: 570px;
+    height: 500px;
+}
+
+.hero-circle {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    background: #e60000;
+    position: absolute;
+    left: 65px;
+    top: 30px;
+}
+
+.phone {
+    position: absolute;
+    width: 225px;
+    height: 425px;
+    border: 9px solid #181818;
+    border-radius: 42px;
+    overflow: hidden;
+    box-shadow: 18px 22px 40px rgba(0,0,0,0.28);
+}
+
+.phone-left {
+    top: 58px;
+    left: 82px;
+    transform: rotate(-17deg);
+    z-index: 1;
+    background:
+        radial-gradient(circle at 70% 70%, #c9b7ff, transparent 55%),
+        linear-gradient(145deg, #a387ff, #3c267b);
+}
+
+.phone-right {
+    top: 42px;
+    left: 280px;
+    transform: rotate(13deg);
+    z-index: 2;
+    background:
+        radial-gradient(circle at 45% 65%, #80b6ff, transparent 55%),
+        linear-gradient(145deg, #142142, #080b1a);
+}
+
+.phone-camera {
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85px;
+    height: 22px;
+    background: #111;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.screen-glow {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border: 28px solid rgba(255,255,255,0.18);
+    border-radius: 50%;
+    top: 120px;
+    left: -35px;
+}
+
+/* ==============================
+   PHONE OPTIONS SECTION
+============================== */
+
+.phone-options {
+    width: 1440px;
+    padding: 70px 65px 90px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.phone-options h2 {
+    font-size: 43px;
+    font-weight: 900;
+    letter-spacing: -1.8px;
+    margin-bottom: 35px;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.option-card {
+    height: 320px;
+    background: #f3f3f3;
+    border-radius: 22px;
+    padding: 34px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-number {
+    font-size: 13px;
+    font-weight: 800;
+    color: #e60000;
+    margin-bottom: 28px;
+}
+
+.option-card h3 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -1.2px;
+    margin-bottom: 16px;
+}
+
+.option-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 290px;
+    color: #383838;
+}
+
+.card-arrow {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 42px;
+    height: 42px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
