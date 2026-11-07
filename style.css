@@ -521,3 +521,239 @@ body {
     background: #000;
     font-size: 23px;
 }
+
+/* ==============================
+   VERIZON LOYALTY SECTION
+============================== */
+
+.loyalty-section {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 80px 65px 100px;
+    background: #ffffff;
+}
+
+/* MAIN LOYALTY BANNER */
+
+.loyalty-main {
+    width: 100%;
+    height: 570px;
+    background: #f2f2f2;
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+/* LEFT TEXT CONTENT */
+
+.loyalty-text {
+    width: 60%;
+    padding: 85px 0 0 70px;
+    position: relative;
+    z-index: 3;
+}
+
+.loyalty-tag {
+    display: inline-block;
+    color: #e60000;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 27px;
+}
+
+.loyalty-text h2 {
+    font-size: 82px;
+    font-weight: 900;
+    line-height: 0.98;
+    letter-spacing: -4px;
+    margin-bottom: 28px;
+}
+
+.loyalty-text h2 span {
+    color: #e60000;
+}
+
+.loyalty-text p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 32px;
+}
+
+.loyalty-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    background: #000;
+    color: #fff;
+    padding: 16px 27px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.loyalty-button span {
+    font-size: 20px;
+}
+
+/* RIGHT IMAGE */
+
+.loyalty-image-area {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 550px;
+    height: 100%;
+}
+
+.loyalty-circle {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: #e60000;
+    top: 65px;
+    right: 20px;
+}
+
+.loyalty-image {
+    position: absolute;
+    width: 505px;
+    height: 525px;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* ==============================
+   LOYALTY BENEFIT CARDS
+============================== */
+
+.loyalty-benefits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.benefit-card {
+    height: 270px;
+    border-radius: 22px;
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cash-card {
+    background: #161616;
+    color: #fff;
+}
+
+.deals-card {
+    background: #e60000;
+    color: #fff;
+}
+
+.wins-card {
+    background: #ededed;
+    color: #000;
+}
+
+.freebies-card {
+    background: #f8df85;
+    color: #000;
+}
+
+.benefit-number {
+    font-size: 13px;
+    font-weight: 800;
+    opacity: 0.75;
+}
+
+.benefit-card h3 {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -1.3px;
+    margin-top: 32px;
+    position: relative;
+    z-index: 2;
+}
+
+.benefit-icon {
+    position: absolute;
+    right: 15px;
+    bottom: -30px;
+    font-size: 135px;
+    font-weight: 900;
+    opacity: 0.17;
+}
+
+/* ==============================
+   ACTIVATION FEES PROMO
+============================== */
+
+.loyalty-fees-promo {
+    height: 400px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background: #e60000;
+    color: #fff;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.fees-content {
+    width: 60%;
+    padding: 65px 0 0 65px;
+    position: relative;
+    z-index: 2;
+}
+
+.fees-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 28px;
+}
+
+.fees-content p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 490px;
+}
+
+.fees-content h2 {
+    font-size: 79px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    line-height: 0.98;
+    margin-top: 16px;
+}
+
+.fees-content h2 span {
+    color: #fff;
+}
+
+.fees-image-area {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    height: 390px;
+    width: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.fees-image-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
